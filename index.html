@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syllabus MG2PSM — FMSB, Université de Yaoundé I</title>
+  <meta name="description" content="Syllabus du Master professionnel en Génie des Procédés Pharmaceutiques et Sciences du Médicament">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+        <img src="assets/logos/uyi.png" alt="Université de Yaoundé I" class="brand__logo" onerror="this.style.display='none'">
+        <div class="brand__text">
+          <strong>Syllabus MG2PSM</strong>
+          <small>FMSB · Université de Yaoundé I</small>
+        </div>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#presentation">Présentation</a>
+        <a href="#cursus">Cursus</a>
+        <a href="#ue">Fiches UE</a>
+        <a href="#tfe">TFE</a>
+        <a href="assets/syllabus.pdf" download class="btn btn--pdf">
+          ⬇ Télécharger le PDF
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+  <div class="hero__inner">
+    
+    <!-- Logo AfroBantou en vedette -->
+    <div class="hero__logo-wrap">
+      <img src="assets/logos/afrobantouLogo.png" 
+           alt="AfroBantou design" 
+           class="hero__logo">
+    </div>
+
+    <span class="hero__badge">Master I &amp; Master II — 120 crédits</span>
+    <h1>Master professionnel en Génie des Procédés Pharmaceutiques et Sciences du Médicament</h1>
+    <p>Parcourez le syllabus complet : tronc commun M1, trois parcours M2 et travaux de fin d'études.</p>
+    
+    <div class="hero__actions">
+      <a href="#ue" class="btn btn--primary">Explorer les UE</a>
+      <a href="assets/syllabus.pdf" download class="btn btn--outline">
+        ⬇ Télécharger le syllabus (PDF)
+      </a>
+    </div>
+
+    <div class="hero__parcours">
+      <span class="chip chip--blue">Cadre production</span>
+      <span class="chip chip--green">Management de la Qualité</span>
+      <span class="chip chip--gold">Dermopharmacie</span>
+    </div>
+  </div>
+</section>
+
+  <!-- ================= PRÉSENTATION ================= -->
+  <section class="section" id="presentation">
+    <div class="container">
+      <h2 class="section__title">📋 Présentation</h2>
+      
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>🎯 Objectifs</h3>
+          <ul>
+            <li>Former des cadres polyvalents à expertise scientifique et technique</li>
+            <li>Dispenser une formation spécialisée orientée industrie</li>
+            <li>Répondre à la pénurie de personnels qualifiés (OMS, Kampala 2008)</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>💼 Débouchés</h3>
+          <ul>
+            <li>Production industrielle des produits de santé</li>
+            <li>Contrôle physico-chimique et microbiologique</li>
+            <li>Affaires réglementaires &amp; management qualité</li>
+            <li>R&amp;D, marketing, agences sanitaires</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>🎓 Admission</h3>
+          <p><strong>M1 :</strong> Licence en Biochimie, Biologie, Microbiologie ou Chimie.</p>
+          <p><strong>M2 :</strong> M1 MG2PSM ou équivalent, Diplôme de pharmacien ou Doctorat en médecine.</p>
+        </div>
+        <div class="info-card">
+          <h3>🤝 Partenaires</h3>
+          <ul>
+            <li>INSSTA (Tchad)</li>
+            <li>LANACOME</li>
+            <li>OCEAC</li>
+            <li>AUF — DRACGL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CURSUS ================= -->
+  <section class="section section--alt" id="cursus">
+    <div class="container">
+      <h2 class="section__title">🎓 Organisation du cursus</h2>
+      <p class="section__sub">120 crédits répartis sur 4 semestres</p>
+
+      <div class="cursus-grid">
+        <article class="cursus-card">
+          <span class="cursus-card__sem">S1 · S2</span>
+          <h3>Master 1 — Tronc commun</h3>
+          <p class="cursus-card__credits">60 crédits</p>
+          <p>Bases réglementaires, techniques d'analyse, production et contrôle qualité.</p>
+        </article>
+        <article class="cursus-card">
+          <span class="cursus-card__sem">S3</span>
+          <h3>Master 2 — 3 parcours</h3>
+          <p class="cursus-card__credits">30 crédits</p>
+          <p>Spécialisation en alternance enseignement / stage en entreprise.</p>
+        </article>
+        <article class="cursus-card">
+          <span class="cursus-card__sem">S4</span>
+          <h3>Travaux de fin d'études</h3>
+          <p class="cursus-card__credits">30 crédits</p>
+          <p>Stage en entreprise + mémoire de Master.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FICHES UE ================= -->
+  <section class="section" id="ue">
+    <div class="container">
+      <h2 class="section__title">📚 Fiches pédagogiques des UE</h2>
+      <p class="section__sub">Filtrez par semestre, parcours ou recherchez un code UE</p>
+
+      <!-- Filtres -->
+      <div class="filters">
+        <input type="search" id="searchInput" placeholder="🔍 Rechercher une UE (ex : GPP401, Pharmacologie...)" class="filters__search">
+        
+        <select id="filterSemestre" class="filters__select">
+          <option value="">Tous les semestres</option>
+          <option value="S1">Semestre 1 — M1</option>
+          <option value="S2">Semestre 2 — M1</option>
+          <option value="S3">Semestre 3 — M2</option>
+          <option value="S4">Semestre 4 — M2</option>
+        </select>
+
+        <select id="filterParcours" class="filters__select">
+          <option value="">Tous les parcours</option>
+          <option value="TC">Tronc commun</option>
+          <option value="CP">Cadre production</option>
+          <option value="MQ">Management de la Qualité</option>
+          <option value="DP">Dermopharmacie</option>
+          <option value="TFE">Travaux de fin d'études</option>
+        </select>
+      </div>
+
+      <!-- Liste des UE injectée par JS -->
+      <div id="ueList" class="ue-list"></div>
+
+      <p id="ueEmpty" class="ue-empty" hidden>Aucune UE ne correspond à votre recherche.</p>
+    </div>
+  </section>
+
+  <!-- ================= TFE ================= -->
+  <section class="section section--alt" id="tfe">
+    <div class="container">
+      <h2 class="section__title">🎓 Travaux de fin d'études (S4)</h2>
+      <div class="tfe-card">
+        <div class="tfe-card__head">
+          <span class="ue-code">GPP510</span>
+          <h3>Travaux de fin d'études</h3>
+          <span class="ue-credits">30 crédits</span>
+        </div>
+        <p>Stage en entreprise (300h TD + 150h TPE) et mémoire (300h TD + 150h TPE).</p>
+        <p>Mise en pratique des compétences acquises + production d'un travail de recherche personnel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__brand">
+      <img src="assets/logos/afrobantouLogo.png" 
+           alt="AfroBantou design" 
+           class="footer__logo">
+      <div class="footer__brand-text">
+        <strong>AfroBantou design</strong>
+        <small>Création web &amp; identité visuelle</small>
+      </div>
+    </div>
+    
+    <p class="footer__copyright">
+      © <span id="year">2025</span> — FMSB, Université de Yaoundé I · MG2PSM
+    </p>
+    
+    <a href="assets/syllabus.pdf" download class="footer__link">
+      Télécharger le syllabus complet
+    </a>
+  </div>
+</footer>
+</footer>
+
+  <!-- Bouton flottant PDF (mobile) -->
+  <a href="assets/syllabus.pdf" download class="fab" aria-label="Télécharger le PDF">
+    ⬇
+  </a>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
